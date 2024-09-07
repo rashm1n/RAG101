@@ -1,0 +1,8 @@
+apiVersion: core.choreo.dev/v1beta1
+kind: ComponentConfig
+spec:
+  inbound:
+    - name: RAG API
+      port: 8080
+      type: REST
+      networkVisibility: Public
